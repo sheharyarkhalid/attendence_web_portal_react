@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/create_department.css">
+    <link rel="stylesheet" type="text/css" href="css/View_Department.css">
+    
+  
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      
+
+    </head>
+<body>
+ 
+    <header>
+      
+           <div class="header_section">
+               <div class="header_sidebar_control">
+               <div class="header_sidebar_control_section">
+                  <div class="header_company_logo"><img src="image/download.png"></div>
+                  <div class="sidebar_controler_btn open_close_nav">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>
+               </div>
+               <div class="company_name"><p>9TH DIMENSION</p></div>
+               </div>
+
+               <div class="responsive_header_sidebar_control">
+                   <div class="sidebar_controler_btn open_close_nav">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                   </div>
+                </div>
+                <div class="responsive_header_logo">
+                    <div class="header_company_logo"><img src="image/download.png"></div>
+                </div> 
+
+               <div class="header_details">
+                <div class="header_detail_section">
+                    <div class="header_search_field">
+                        <input type="text" />
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                    <div class="responsive_header_search_field">
+                        <button>
+                            <i class="fa fa-search"></i>
+                           <input type="text" />
+                        </button>
+                    </div>
+                    <div class="header_notification_btn">
+                        <a href="#">
+                            <i class="far fa-bell"></i>
+                            <span>50+</span>
+                        </a>
+                        <!-- <div class="header_notification_click_detail">
+                            <div class="header_notification_click_detail_head">
+                                <p>notifications</p>
+                                <button>clear all</button>
+                            </div>
+                           <a href="#"> <div class="header_single_notification_detail">
+                                <div class="header_single_notification_data">
+                                <img src="" />
+                                <div class="header_single_notification_time"><span>Lesley Grauer added new task Hospital Administration</span><p>4 minut ago</p></div> 
+                                </div>
+                                
+                            </div></a>
+
+                            <a href="#"> <div class="header_single_notification_detail">
+                                <div class="header_single_notification_data">
+                                <img src="" />
+                                <div class="header_single_notification_time"><span>Lesley Grauer added new task Hospital Administration</span><p>4 minut ago</p></div> 
+                                </div>
+                                
+                            </div></a>
+
+                            <a href="#"> <div class="header_single_notification_detail">
+                                <div class="header_single_notification_data">
+                                <img src="" />
+                                <div class="header_single_notification_time"><span>Lesley Grauer added new task Hospital Administration</span><p>4 minut ago</p></div> 
+                                </div>
+                                
+                            </div></a>
+
+
+                            <div class="header_notification_click_detail_footer">
+                                <a href="#">view all notifications</a>
+                            </div>
+                        </div> -->
+                    </div>
+                   <div class="header_login_details_section"> 
+                    <div class="header_login_details"> 
+                        <figure><img src="image/login_img.png" /></figure>
+                        <p>admin</p>
+                        <span><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                     <!-- <div class="header_login_details_section_click_data">
+                         <a href="#">My profile</a>
+                         <a href="#">setting</a>
+                         <a href="#">logout</a>
+                     </div> -->
+                   </div> 
+                    <div class="responsive_header_login_details"> 
+                        <a>
+                            <i class="fa fa-ellipsis-v"></i>
+                        
+                        </a>
+                        <!-- <div class="header_login_details_section_click_data">
+                            <a href="#">My profile</a>
+                            <a href="#">setting</a>
+                            <a href="#">logout</a>
+                        </div> -->
+                    </div>
+                </div>     
+               </div>
+           </div>
+
+      
+    </header> 
+
+<section class="content_body_wrapper">
+    <div class="responsive_content_color"></div>
+   <div class="content_body_wrapper_container">
+      <div class="content_body_wrapper_main">
+          <!-- <div class="content_body_page_title">
+              <h1>Welcome Admin !</h1>
+              <h5>Dashboard</h5>
+          </div>
+          <div class="content_body_page_card">
+              <div class="single_card">
+                  <a><i class="fas fa-cubes"></i></a>
+                  <div class="single_card_counter">
+                      <h3>202</h3>
+                      <span>Projects</span>
+                  </div>
+              </div>
+
+              <div class="single_card">
+                <a><i class="fas fa-cubes"></i></a>
+                <div class="single_card_counter">
+                    <h3>202</h3>
+                    <span>Projects</span>
+                </div>
+            </div>
+
+            <div class="single_card">
+                <a><i class="fas fa-cubes"></i></a>
+                <div class="single_card_counter">
+                    <h3>202</h3>
+                    <span>Projects</span>
+                </div>
+            </div>
+
+            <div class="single_card">
+                <a><i class="fas fa-cubes"></i></a>
+                <div class="single_card_counter">
+                    <h3>202</h3>
+                    <span>Projects</span>
+                </div>
+            </div>
+          </div> -->
+
+
+<!-- create department page start -->
+<!-- <section class="create_department_section">
+
+         <div class="content_body_page_title">
+             <div class="body_page_title">
+              <h1>Department</h1>
+              <span class="body_page_title_detail"><a href="#">Dashboard</a><span></span><h6>create Department</h6></span>
+             </div>
+             <div class="body_page_title_create_btn">
+                 <button><span>View Department</span></button>
+             </div> 
+         </div>
+         <section class="create_department_form">
+            <div class="create_department_container">
+                  <form>
+                     <div class="create_department_form_fields"> 
+                         
+                      <div class="input_field">
+                      <label>Department Name <span class="mandatory"> *</span></label>
+                      <input type="text" placeholder="">
+                      </div>
+                      <div class="input_field">
+                      <label>Phone <span class="mandatory"> * </span></label>
+                      <input type="number" placeholder="">
+                      </div>
+                      <div class="input_field">
+                        <label>Department Email <span class="Optional">(Optional)</span></label>
+                        <input type="email" placeholder="">
+                        </div>
+                        <div class="input_field">
+                        <label>Departmant Address <span class="Optional">(Optional)</span></label>
+                        <textarea></textarea>
+                        </div>
+                      <div class="submit_btn">
+                      <button type="submit">Create</button>
+                      </div>
+                  
+                     </div> 
+                  </form>
+            </div>
+        </section>
+
+ </section>          -->
+<!-- create department page end -->
+
+
+<!-- view department page start -->
+
+<section class="view_department_section">
+
+    <div class="content_body_page_title">
+        <div class="body_page_title">
+         <h1>Department</h1>
+         <span class="body_page_title_detail"><a href="#">Dashboard</a><span></span><h6>Department List</h6></span>
+        </div>
+        <div class="body_page_title_create_btn">
+            <button><i class="fas fa-plus"></i><span>Add Department</span></button>
+        </div> 
+    </div>
+    <div class="view_department_table"> 
+        <table>
+          
+            <tr class="table_header">
+                <th>Department Name</th>
+                <th class="view_department_action">Actions</th>
+            </tr>
+           
+            <tr class="table_body">
+               
+                <td>Health Care Center</td>
+                <td>
+                       <div class="view_department_action_btn view_department_action">
+                          <i class="fas fa-ellipsis-v"></i>
+                          <div class="view_department_do_action">
+                            <a href="#"><i class="fas fa-eye"></i><span>View</span></a>
+                            <a href="#"><i class="fas fa-pen"></i><span>Edit</span></a>
+                            <a href="#"><i class="fas fa-trash-alt"></i><span>Delete</span></a>
+                           </div> 
+                        </div>
+                   
+                       
+                </td>
+            </tr>
+
+            
+            
+            
+        </table>   
+     </div>
+
+</section> 
+
+<!-- view department page end -->
+
+
+
+
+
+      </div>  
+   </div>
+</section>
+
+
+    <section class="sidebar_section responsive_nav_bar">
+      
+        <div class="sidebar_main_wrapper">
+        
+           <div class="sidebar_main_heading_section">
+               <div class="sidebar_main_heading">
+                   <span class="sidebar_menu_title">Main</span>
+                   
+                   <div class="sidebar_sub_menu">
+                       <a href="#">
+                     <div class="side_bar_single_sub_menu"> 
+                       <div class="logo_plus_sub_menu"><i class="fas fa-tachometer-alt"></i> <span> Dashboard</span></div>
+                       <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                    </div>  
+                    <object>
+                    <div class="sidebar_sub_child_menu">
+                        <div class="sidebar_sub_child_menu_list">
+                            <a href="#">admin dashboard</a>
+                            <a href="#">Employee dashboard</a>
+                        </div>   
+                    </div>
+                    </object>
+                     </a>
+                      
+                       <a href="#">
+                        <div class="side_bar_single_sub_menu"> 
+                        <div class="logo_plus_sub_menu"><i class="fas fa-cubes"></i> <span> Device Managment</span></div>
+                        <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                        </div>   
+                        <object>
+                            <div class="sidebar_sub_child_menu">
+                                <div class="sidebar_sub_child_menu_list">
+                                    <a href="#">Add New Device</a>
+                                    <a href="#">View Devices</a>
+                                </div>   
+                            </div>
+                        </object>
+                        
+                        </a>
+                       
+                    </div>
+               
+
+               </div>
+
+               <div class="sidebar_main_heading">
+                <span class="sidebar_menu_title">Configuration</span>
+                
+                <div class="sidebar_sub_menu">
+                    <a href="#">
+                  <div class="side_bar_single_sub_menu"> 
+                    <div class="logo_plus_sub_menu"><i class="fas fa-tachometer-alt"></i> <span>Department</span></div>
+                    <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                 </div>  
+                 <object>
+                 <div class="sidebar_sub_child_menu">
+                     <div class="sidebar_sub_child_menu_list">
+                         <a href="#">Create Department</a>
+                         <a href="#">View Department</a>
+                     </div>   
+                 </div>
+                 </object>
+                  </a>
+                   
+                    <a href="#">
+                     <div class="side_bar_single_sub_menu"> 
+                     <div class="logo_plus_sub_menu"><i class="fas fa-cubes"></i> <span> Designation</span></div>
+                     <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                     </div>  
+                     <object>
+                        <div class="sidebar_sub_child_menu">
+                            <div class="sidebar_sub_child_menu_list">
+                                <a href="#">Create job Title</a>
+                                <a href="#">View job Title</a>
+                            </div>   
+                        </div>
+                        </object>  
+                     </a>
+                    
+                     <a href="#">
+                        <div class="side_bar_single_sub_menu"> 
+                        <div class="logo_plus_sub_menu"><i class="fas fa-cubes"></i> <span>Shift Managment</span></div>
+                        <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                        </div>  
+                        <object>
+                           <div class="sidebar_sub_child_menu">
+                               <div class="sidebar_sub_child_menu_list">
+                                   <a href="#">Create shift</a>
+                                   <a href="#">View shift</a>
+                               </div>   
+                           </div>
+                           </object>  
+                        </a>
+
+                        <a href="#">
+                            <div class="side_bar_single_sub_menu"> 
+                            <div class="logo_plus_sub_menu"><i class="fas fa-cubes"></i> <span>Holidays</span></div>
+                            <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                            </div>  
+                            <object>
+                               <div class="sidebar_sub_child_menu">
+                                   <div class="sidebar_sub_child_menu_list">
+                                       <a href="#">Create Holidays</a>
+                                       <a href="#">View Holidays</a>
+                                   </div>   
+                               </div>
+                               </object>  
+                            </a>
+
+                            <a href="#">
+                                <div class="side_bar_single_sub_menu"> 
+                                <div class="logo_plus_sub_menu"><i class="fas fa-cubes"></i> <span>Leaves</span></div>
+                                <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                                </div>  
+                                <object>
+                                   <div class="sidebar_sub_child_menu">
+                                       <div class="sidebar_sub_child_menu_list">
+                                           <a href="#">Leave Setting</a>
+                                           
+                                       </div>   
+                                   </div>
+                                   </object>  
+                                </a>
+
+                                <a href="#">
+                                    <div class="side_bar_single_sub_menu"> 
+                                    <div class="logo_plus_sub_menu"><i class="fas fa-cubes"></i> <span>Attendence</span></div>
+                                    <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                                    </div>  
+                                    <object>
+                                       <div class="sidebar_sub_child_menu">
+                                           <div class="sidebar_sub_child_menu_list">
+                                               <a href="#">Attendence Rules</a>
+                                               
+                                           </div>   
+                                       </div>
+                                       </object>  
+                                    </a>
+
+                 </div>
+            </div>
+
+
+            <div class="sidebar_main_heading">
+                <span class="sidebar_menu_title">Employees</span>
+                
+                <div class="sidebar_sub_menu">
+                    <a href="#">
+                  <div class="side_bar_single_sub_menu"> 
+                    <div class="logo_plus_sub_menu"><i class="fas fa-tachometer-alt"></i> <span> Employees</span></div>
+                    <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                 </div>  
+                 <object>
+                 <div class="sidebar_sub_child_menu">
+                     <div class="sidebar_sub_child_menu_list">
+                         <a href="#">create Employees</a>
+                         <a href="#">View Employees</a>
+                     </div>   
+                 </div>
+                 </object>
+                  </a>
+                   
+                    <a href="#">
+                     <div class="side_bar_single_sub_menu"> 
+                     <div class="logo_plus_sub_menu"><i class="fas fa-cubes"></i> <span> Leave</span></div>
+                     <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                     </div>    
+                     <object>
+                        <div class="sidebar_sub_child_menu">
+                            <div class="sidebar_sub_child_menu_list">
+                                <a href="#">Leave(Admin)</a>
+                                <a href="#">Leave(Employee)</a>
+                            </div>   
+                        </div>
+                        </object>
+                     </a>
+                    
+                 </div>
+            </div>
+
+
+            <div class="sidebar_main_heading">
+                <span class="sidebar_menu_title">Attendence</span>
+                
+                <div class="sidebar_sub_menu">
+                    <a href="#">
+                  <div class="side_bar_single_sub_menu"> 
+                    <div class="logo_plus_sub_menu"><i class="fas fa-tachometer-alt"></i> <span> Attendence</span></div>
+                    <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                 </div>  
+                 <object>
+                 <div class="sidebar_sub_child_menu">
+                     <div class="sidebar_sub_child_menu_list">
+                         <a href="#">Mark Attendence</a>
+                         <a href="#"> Attendence(Admin)</a>
+                         <a href="#"> Attendence(Employee)</a>
+                     </div>   
+                 </div>
+                 </object>
+                  </a>
+                   
+                    <a href="#">
+                     <div class="side_bar_single_sub_menu"> 
+                     <div class="logo_plus_sub_menu"><i class="fas fa-cubes"></i> <span> Apps</span></div>
+                     <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                     </div>    
+                     </a>
+                    
+                 </div>
+            </div>
+
+
+            <div class="sidebar_main_heading">
+                <span class="sidebar_menu_title">Main</span>
+                
+                <div class="sidebar_sub_menu">
+                    <a href="#">
+                  <div class="side_bar_single_sub_menu"> 
+                    <div class="logo_plus_sub_menu"><i class="fas fa-tachometer-alt"></i> <span> Dashboard</span></div>
+                    <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                 </div>  
+                 <object>
+                 <div class="sidebar_sub_child_menu">
+                     <div class="sidebar_sub_child_menu_list">
+                         <a href="#">admin dashboard</a>
+                         <a href="#">admin dashboard</a>
+                     </div>   
+                 </div>
+                 </object>
+                  </a>
+                   
+                    <a href="#">
+                     <div class="side_bar_single_sub_menu"> 
+                     <div class="logo_plus_sub_menu"><i class="fas fa-cubes"></i> <span> Apps</span></div>
+                     <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                     </div>    
+                     </a>
+                    
+                 </div>
+            </div>
+
+
+            <div class="sidebar_main_heading">
+                <span class="sidebar_menu_title">Main</span>
+                
+                <div class="sidebar_sub_menu">
+                    <a href="#">
+                  <div class="side_bar_single_sub_menu"> 
+                    <div class="logo_plus_sub_menu"><i class="fas fa-tachometer-alt"></i> <span> Dashboard</span></div>
+                    <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                 </div>  
+                 <object>
+                 <div class="sidebar_sub_child_menu">
+                     <div class="sidebar_sub_child_menu_list">
+                         <a href="#">admin dashboard</a>
+                         <a href="#">admin dashboard</a>
+                     </div>   
+                 </div>
+                 </object>
+                  </a>
+                   
+                    <a href="#">
+                     <div class="side_bar_single_sub_menu"> 
+                     <div class="logo_plus_sub_menu"><i class="fas fa-cubes"></i> <span> Apps</span></div>
+                     <div class="animated_icon"><i class="fas fa-chevron-down"></i></div>
+                     </div>    
+                     </a>
+                    
+                 </div>
+            </div>
+               
+           </div>
+
+        </div>
+
+    </section>
+
+
+
+
+<script src="script/Ecommerce.js"></script>
+
+
+</body>
+</html>
